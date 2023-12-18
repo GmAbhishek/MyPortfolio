@@ -1,6 +1,6 @@
 /* Components */
 .__gradientText {
-  @apply text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text;
+  @apply bg-gradient-to-r from-primary to-secondary text-transparent bg-300% bg-clip-text animate-gradient;
 }
 /* End of components */
 

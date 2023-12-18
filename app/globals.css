@@ -26,24 +26,28 @@
   .safe-x-padding {
     @apply px-[20px] md:px-[50px] lg:px-[120px];
   }
-
+ 
+ 
   .gradient-text {
-    @apply text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text;
+    @apply bg-gradient-to-r from-primary to-secondary text-transparent bg-300% bg-clip-text animate-gradient;
   }
-
+  
   .gradient-bg {
-    @apply bg-gradient-to-r from-primary to-secondary;
+    @apply  bg-gradient-to-r from-primary to-secondary bg-300% animate-gradient;
   }
+  
 
   .gradient-btn {
-    @apply bg-gradient-to-r from-primary to-secondary;
+    @apply bg-gradient-to-r from-primary to-secondary bg-300% animate-gradient;
     position: relative;
-    color: #fff;
+    color: #000;
     border: none;
     overflow: hidden;
     z-index: 1;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto; 
+    margin-right: auto; 
   }
 }
 
