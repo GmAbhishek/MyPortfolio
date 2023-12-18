@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 export const metadata = {
   title: "Home - Portfolio",
-  description: 'Deri Kurniawan Portfolio',
+  description: 'Gm_Abhishek Portfolio',
 }
 
 export default function RootLayout({

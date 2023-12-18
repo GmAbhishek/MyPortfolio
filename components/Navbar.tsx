@@ -152,7 +152,7 @@ export default function Navbar(): JSX.Element {
                             <a
                                 href="/"
                                 className="flex-1 py-4 safe-x-padding"
-                                download="Deri Kurniawan Resume"
+                                download="Gm_Abhishek Resume"
                             >
                                
                                 <div className="flex items-center justify-between">

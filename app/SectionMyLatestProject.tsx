@@ -23,43 +23,43 @@ const tabs = [
                 slug: 'transform-portfolio-design-to-web-app-1',
                 title: 'Transform Portfolio Design to Web App',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
             {
                 slug: 'transform-portfolio-design-to-web-app-2',
                 title: 'Portfolio 2',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
             {
                 slug: 'transform-portfolio-design-to-web-app-3',
                 title: 'Portfolio 3',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
             {
                 slug: 'transform-portfolio-design-to-web-app-4',
                 title: 'Portfolio 4',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
             {
                 slug: 'transform-portfolio-design-to-web-app-5',
                 title: 'Portfolio 5',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
             {
                 slug: 'transform-portfolio-design-to-web-app-6',
                 title: 'Portfolio 6',
                 image: assets.home.myLatestProject.projects.portfolioWebsite,
-                repositoryUrl: "https://github.com/deri-kurniawan/portfolio",
-                demoUrl: "https://portfolio.deri.my.id",
+                repositoryUrl: "https://github.com/GmAbhishek/portfolio",
+                demoUrl: "https://portfolio.Gm_Abhishek.my.id",
             },
         ]
     },
@@ -185,7 +185,7 @@ export default function SectionMyLatestProject() {
                                                                     href={{
                                                                         pathname: item.repositoryUrl,
                                                                         query: {
-                                                                            utm_source: 'deri.my.id',
+                                                                            utm_source: 'Gm_Abhishek.my.id',
                                                                             utm_medium: 'campaign',
                                                                             utm_campaign: 'portfolio'
                                                                         }
@@ -206,7 +206,7 @@ export default function SectionMyLatestProject() {
                                                                     href={{
                                                                         pathname: item.demoUrl,
                                                                         query: {
-                                                                            utm_source: 'deri.my.id',
+                                                                            utm_source: 'Gm_Abhishek.my.id',
                                                                             utm_medium: 'campaign',
                                                                             utm_campaign: 'portfolio'
                                                                         }
