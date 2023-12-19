@@ -37,7 +37,7 @@ export default function SectionHero(): JSX.Element {
   const animatedImages: IAnimateImageProps[] = [
     {
       className:
-        "w-[140px] h-auto lg:w-[150px] lg:h-[auto] absolute top-3 -left-16 z-[1]",
+        "w-[130px] h-auto lg:w-[150px] lg:h-[auto] absolute top-3 -left-16 z-[1]",
       src: assets.home.hero.infinity,
       width: 180,
       height: 120,
@@ -48,7 +48,7 @@ export default function SectionHero(): JSX.Element {
     },
     {
       className:
-        "w-[80px] h-auto lg:w-[250px] lg:h-[auto] absolute top-6 -right-12 z-[1]",
+        "w-[180px] h-auto lg:w-[250px] lg:h-[auto] absolute top-6 -right-12 z-[1]",
       src: assets.home.hero.pokeball,
       width: 100,
       height: 202,

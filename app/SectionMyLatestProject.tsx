@@ -12,7 +12,6 @@ import { IoMdOpen } from 'react-icons/io';
 import { BsInfoCircle } from 'react-icons/bs';
 import { FiFigma } from 'react-icons/fi';
 import styles from "./home.module.css";
-import ThemeSwitch from '@/components/ThemeSwitcher';
 
 const tabs = [
     {
@@ -86,7 +85,6 @@ tabs.push({
 
 export default function SectionMyLatestProject() {
     const [activeTab, setActiveTab] = useState(0);
-    const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
     const { ref, inView } = useInView({
         threshold: 0.1,
         triggerOnce: true,
@@ -134,7 +132,7 @@ export default function SectionMyLatestProject() {
                                     alt=""
                                     width={100}
                                     height={100}
-                                    style={{ height: 'auto' }}
+                                    style={{ height: 'auto', width: 'auto' }}
                                 />
                                 <div className="absolute top-0 left-0 flex items-center justify-center w-full h-full transition-opacity duration-300 opacity-0 bg-gray/10 backdrop-blur-sm rounded-2xl md:rounded-[25px] hover:opacity-100 md:text-2xl">
                                     <p className={`${activeTab === index ? 'text-white' : 'text-accent'} font-bold transition-colors duration-75 ease-in-out`}>{tab.name}</p>
@@ -171,6 +169,8 @@ export default function SectionMyLatestProject() {
                                                             alt=""
                                                             width={441}
                                                             height={261}
+
+                                    style={{ height: 'auto', width: 'auto' }}
                                                             priority
                                                         />
                                                     </motion.div>
