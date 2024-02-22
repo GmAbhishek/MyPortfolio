@@ -16,7 +16,7 @@
 }
 
 .creatorQuotes {
-  @apply font-medium text-base md:text-xl leading-[38px] lg:text-2xl  max-w-[933px] mx-auto text-justify;
+  @apply font-medium text-base md:text-xl leading-[38px] lg:text-2xl  max-w-[933px] mx-auto text-center;
 }
 
 .creatorQuotesName {

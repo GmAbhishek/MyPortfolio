@@ -16,7 +16,7 @@ const ThemeSwitch: React.FC<ThemeSwitchProps> = ({ isDarkMode, toggleTheme }) =>
   return (
     <><style jsx>{`
     .theme-switch {
-      --toggle-size: 15px;
+      --toggle-size: 10px;
       /* the size is adjusted using font-size,
          this is not transform scale,
          so you can choose any size */

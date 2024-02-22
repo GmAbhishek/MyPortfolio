@@ -62,8 +62,12 @@ export default function SectionQuote() {
     return (
         <section ref={ref} className={`safe-x-padding ${styles.sectionDistance}`} aria-label='Quote Section'>
             <div className='relative'>
-                <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.creatorQuotes}>
-                    This portfolio was made with heart and soul, pouring passion and creativity into every detail to bring it to life. It&apos;s not just a portfolio, it&apos;s a labor of love.
+            <motion.p
+  initial={{ y: 100, opacity: 0 }}
+  animate={inView ? { y: 0, opacity: 1 } : {}}
+  transition={{ duration: 0.5 }}
+  className={`${styles.creatorQuotes}`}
+>A thousand sleepless nights, a million lines of code, woven into threads of logic, yet no CV can capture the heartbeats spent chasing elusive bugs. This one-page canvas holds not just pixels, but the sweat, the grit, the quiet victories - a developer&#39;s soul, distilled in digital ink.
                 </motion.p>
 
                 {animatedFloatingImages.map((item, index) => (

@@ -87,6 +87,11 @@ export default function SectionHero(): JSX.Element {
       transition: { delay: 0.8, duration: 0.8 },
     },
   ];
+  const handleDownload = () => {
+    // You can use the browser's download API or any other preferred method here.
+    const pdfUrl = '/assets/images/home/hero/GmAbhishek\'s Resume.pdf';
+    window.open(pdfUrl, '_blank');
+  };
 
   return (
     <section
@@ -130,10 +135,9 @@ export default function SectionHero(): JSX.Element {
         </div>
     </a> */}
             <a
-              className="px-12 py-3  text-white gradient-btn rounded-xl mt-6 "
-              href="/"
-              download="Deri Kurniawan Resume"
-            >
+      className="px-12 py-3 text-white gradient-btn rounded-xl mt-6 cursor-pointer"
+      onClick={handleDownload}
+    >
               <div className="flex items-center justify-between">
                 <span className="text-2xl font-semibold">Resume</span>
                 <span className="text-3xl ml-4">
